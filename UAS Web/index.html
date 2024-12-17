@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - GreenNode</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+        .navbar {
+            position: relative;
+            z-index: 1;
+        }
+        main {
+            flex: 1;
+            background-color: #f5f6f7;
+        }
+        footer {
+            margin-top: auto;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="overlay"></div>
+
+    <nav class="bg-green-800 text-white p-2">
+        <div class="flex justify-between items-center max-w-7xl mx-auto">
+            <img src="images/logo.webp" alt="GreenNode Logo" class="h-12">
+            <ul class="flex space-x-12">
+                <li><a href="index.html" class="font-bold underline">Home</a></li>
+                <li><a href="our_service.html" class="hover:underline">Our Services</a></li>
+                <li><a href="about_us.html" class="hover:underline">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <main class="relative z-10">
+        <!-- bg -->
+        <div class="relative h-screen">
+            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('images/bg.webp');">
+                <div class="absolute inset-0 bg-black opacity-50"></div>
+            </div>
+
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/2 text-white">
+                <h2 class="text-5xl font-bold text-center">Welcome to <span class="text-green-500 drop-shadow-xl">GreenNode</span></h2>
+                <p class="text-center text-xl my-3">Environmentally friendly server solutions.</p>
+            </div>
+        </div>
+        </div>
+
+        
+        <div class="floating-boxes relative z-10 flex justify-center items-center space-x-6 mt-12">
+            <div class="w-1/4 bg-white bg-opacity-90 shadow-lg p-6 rounded-lg flex flex-col min-h-[300px]">
+                <h2 class="text-xl font-bold text-center">About Us</h2>
+                <p class="text-justify flex-grow">
+                    GreenNode is an innovative green server provider committed to 
+                    delivering high-performance hosting solutions while prioritizing environmental sustainability. 
+                    By harnessing the power of renewable energy sources, GreenNode ensures that its operations have minimal impact on the planet, 
+                    offering businesses and individuals a responsible way to manage their digital presence. <a href="about_us.html" class="text-green-800 underline">Learn More</a>
+                </p>
+            </div>
+            <div class="w-1/4 bg-white bg-opacity-90 shadow-lg p-6 rounded-lg flex flex-col min-h-[300px]">
+                <h2 class="text-xl font-bold text-center">What We Offer</h2>
+                <p class="text-justify flex-grow">
+                    GreenNode offers server services powered by renewable energy sources
+                    ensuring your business reduces its carbon footprint while maintaining optimal
+                    performance with a great and competitive rate. <a href="our_service.html" class="text-green-800 underline">Learn More</a>
+                </p>
+            </div>
+            <div class="w-1/4 bg-white bg-opacity-90 shadow-lg p-6 rounded-lg flex flex-col min-h-[300px]">
+                <h2 class="text-xl font-bold text-center">More Features To Come....</h2>
+                <p class="text-justify flex-grow">
+                    As a green tech specialist, we will always commit with green energy resources, we will improve our system to become more sustainable.
+                    Follow us for more :
+                    <div class="mt-2 flex justify-center">
+                        <a href="https://www.instagram.com"> <img src="images/IG.webp" alt="IG Logo" class="h-10"></a>
+                        <a href="https://www.facebook.com"> <img src="images/fb.webp" alt="FB Logo" class="h-10"></a>
+                        <a href="https://www.x.com"> <img src="images/x.webp" alt="x Logo" class="h-10 ml-2"></a>
+                    </div>
+                </p>
+            </div>
+        </div>
+
+
+
+        <section class="mt-12 max-w-6xl mx-auto p-8 bg-white bg-opacity-90 shadow-lg rounded-lg">
+            <h2 class="text-3xl font-bold text-green-800 mb-4">Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-4 shadow-md rounded-md bg-gray-50">
+                    <h3 class="font-bold text-lg">Renewable Energy</h3>
+                    <p class="text-gray-600">Our servers are powered 100% by renewable energy sources.</p>
+                </div>
+                <div class="p-4 shadow-md rounded-md bg-gray-50">
+                    <h3 class="font-bold text-lg">24/7 Support</h3>
+                    <p class="text-gray-600">Get assistance anytime with our dedicated support team.</p>
+                </div>
+                <div class="p-4 shadow-md rounded-md bg-gray-50">
+                    <h3 class="font-bold text-lg">Custom Hosting Plans</h3>
+                    <p class="text-gray-600">Tailored hosting solutions to meet your unique business needs.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mt-12 max-w-6xl mx-auto p-8 bg-white bg-opacity-90 shadow-lg rounded-lg">
+            <h2 class="text-3xl font-bold text-green-800 mb-4">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="p-4 shadow-md rounded-md bg-gray-50">
+                    <p class="text-gray-600 italic">"GreenNode sangat membantu dalam mengurangi website footprint. 
+                        Website yang saya buat menjadi lebih ramah lingkungan, selain itu performa server juga sangat cepat, terimakasih GreenNode"</p>
+                    <h4 class="mt-2 font-bold">- Fahril, Professional Web Developer</h4>
+                </div>
+                <div class="p-4 shadow-md rounded-md bg-gray-50">
+                    <p class="text-gray-600 italic">"Saya dapat projek UAS yang mengharuskan website memiliki carbon footprint rendah, GreenNode sangat membantu dalam mencapai itu"</p>
+                    <h4 class="mt-2 font-bold">- Zaky, Mahasiswa</h4>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mt-12 max-w-6xl mx-auto p-8 bg-white bg-opacity-90 shadow-lg rounded-lg">
+            <h2 class="text-3xl font-bold text-green-800 mb-4">Contact Us</h2>
+            <form action="#" method="POST" class="space-y-4">
+                <div>
+                    <label for="name" class="block text-gray-700 font-medium">Name</label>
+                    <input type="text" id="name" name="name" class="w-full p-2 border border-gray-300 rounded-md">
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-700 font-medium">Email</label>
+                    <input type="email" id="email" name="email" class="w-full p-2 border border-gray-300 rounded-md">
+                </div>
+                <div>
+                    <label for="message" class="block text-gray-700 font-medium">Message</label>
+                    <textarea id="message" name="message" rows="4" class="w-full p-2 border border-gray-300 rounded-md"></textarea>
+                </div>
+                <button type="submit" class="px-6 py-2 bg-green-800 text-white rounded-md">Send</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer class="relative z-10 bg-green-800 text-white p-4">
+        <div class="max-w-6xl mx-auto text-center">
+            <p>&copy; 2024 GreenNode. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
